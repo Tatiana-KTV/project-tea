@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Cormorant-LightItalic';
+  font-weight: 300;
+  font-style: italic;  
+  src: url('../fonts/Cormorant-LightItalic.woff2') format('woff2'),
+       url('../fonts/Cormorant-LightItalic.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Cormorant-Regular.woff2') format('woff2'),
+    url('../fonts/Cormorant-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  font-weight: 300;
+  font-style: normal;
+  src: url('../fonts/OpenSans-Light.woff2') format('woff2'),
+    url('../fonts/OpenSans-Light.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans-LightItalic';
+  font-weight: 300;
+  font-style: italic;
+  src: url('../fonts/OpenSans-LightItalic.woff2') format('woff2'),
+    url('../fonts/OpenSans-LightItalic.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+    url('../fonts/OpenSans-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans-SemiBold';
+  font-weight: 600;
+  font-style: normal;
+  src: url('../fonts/OpenSans-SemiBold.woff2') format('woff2'),
+    url('../fonts/OpenSans-SemiBold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IMFellGreatPrimerSC-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/IMFellGreatPrimerSC-Regular.woff2') format('woff2'),
+    url('../fonts/IMFellGreatPrimerSC-Regular.woff') format('woff');
+  font-display: swap;
+}
