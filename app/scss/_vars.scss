@@ -1,0 +1,44 @@
+$black: #000;
+$white: #fff;
+$light-1: #F7F2EA;
+$light-2: #fbf9f5;
+$lightgreen: #B8B58B;
+$text: #151618;
+$brown: #754e29;
+$dark: #0f0f0f;
+$blue: #27346a;
+
+%cormorant-italic {
+  font-family: 'Cormorant-LightItalic';
+  font-weight: 300;
+}
+
+%cormorant-400 {
+  font-family: 'Cormorant-Regular';
+  font-weight: 400;
+}
+
+%openSans-300 {
+  font-family: 'OpenSans-Light';
+  font-weight: 300;
+}
+
+%openSans-italic-300 {
+  font-family: 'OpenSans-LightItalic';
+  font-weight: 300;
+}
+
+%openSans-400 {
+  font-family: 'OpenSans-Regular';
+  font-weight: 400;
+}
+
+%openSans-600 {
+  font-family: 'OpenSans-SemiBold';
+  font-weight: 600;
+}
+
+%fellGreat {
+  font-family: 'IMFellGreatPrimerSC-Regular';
+  font-weight: 400;
+}
