@@ -4,6 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="images/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="images/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="css/style.min.css">
   <title>project-tea</title>
 </head>
@@ -65,9 +74,7 @@
               experts.</p>
           </div>
         </div>
-
       </div>
-
     </section>
 
     <section class="section description">
@@ -76,7 +83,6 @@
           ones."
         </p>
       </div>
-
     </section>
 
     <section class="section collection">
@@ -107,7 +113,6 @@
           </ul>
         </div>
       </div>
-
     </section>
 
     <section class="section testimonials">
@@ -157,10 +162,6 @@
           </div>
         </div>
       </div>
-
-
-
-
     </section>
 
     <section class="section blog">
@@ -231,34 +232,61 @@
               out on the tea-rrific perks - sign up today!
             </div>
             <div class="subscribe__form-data ">
-              <form class="subscribe__form">
-                <label>
-                  <input type="text" placeholder="name@email.com" id="mail">
-                </label>
-                <button type="submit">Join</button>
-                <input type="checkbox" id="agreement">
-                <label for="agreement">We take your privacy seriously and are committed to protecting your personal
-                  information. By subscribing to our mailing list, you are consenting to receive periodic emails from us
-                  about our products, promotions, and other tea-related information.</label>
-                
+              <form class="subscribe__form d-flex">
+                <div class="subscribe__top d-flex">
+                  <label class="subscribe__label-email">
+                    <input class="subscribe__input-email" type="text" placeholder="name@email.com" id="mail">
+                  </label>
+                  <button class="subscribe__btn" type="submit">Join</button>
+                </div>
+                <div class="subscribe__bottom">
+                  <input class="subscribe__input-agreement" type="checkbox" id="agreement">
+                  <label class="subscribe__label-agreement" for="agreement">We take your privacy seriously and are
+                    committed to protecting your personal
+                    information. By subscribing to our mailing list, you are consenting to receive periodic emails from
+                    us
+                    about our products, promotions, and other tea-related information.</label>
+                </div>
               </form>
             </div>
-              
           </div>
         </div>
       </div>
     </section>
 
+    <section class="section prioritise">
+      <div class="wide-container">
+        <div class="container">
+          <h2 class="prioritise__title">We Prioritise</h2>
+          <ul class="prioritise__list d-flex">
+            <li class="prioritise__item prioritise__item--globe">
+              <h3 class="prioritise__item-title">Single garden teas</h3>
+              <p class="prioritise__item-txt">Complete transparency</p>
+            </li>
+            <li class="prioritise__item prioritise__item--leaf">
+              <h3 class="prioritise__item-title">Only Loose leaf tea</h3>
+              <p class="prioritise__item-txt">Best Drinking Experience</p>
+            </li>
+            <li class="prioritise__item prioritise__item--support">
+              <h3 class="prioritise__item-title">Customer support</h3>
+              <p class="prioritise__item-txt">No bots, no automated replies</p>
+            </li>
+            <li class="prioritise__item prioritise__item--shipping">
+              <h3 class="prioritise__item-title">Fast shipping</h3>
+              <p class="prioritise__item-txt">Save, Convenient, Reliable</p>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+
+    </section>
   </main>
 
+  <footer class="footer">
 
-
-
-
-
-
-
-
+  </footer>
 
   <script src="js/main.min.js"></script>
 </body>
